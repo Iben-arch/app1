@@ -30,7 +30,6 @@ export default function MassageBox(){
             <div style={msgboxStyle}>{text}</div><br/><br/>
             <button onClick={onClickSetText}>ข้อความ</button>&nbsp;
             <button onClick={onClickZoomIn}>เพิ่มขนาด</button>&nbsp;
-            <button onClick={() => setSize(size-1)}>ลบข้อความ</button>
+            <button onClick={() => setSize(size-1)}>ลดขนาด</button>
         </div>
-    )
-}
+    )}
